@@ -1,0 +1,43 @@
+/* осовной цвет текста #212121;
+    акцент #2196F3;
+    цвет текста-2  #757575;
+    белый #FFFFFF;
+ */
+.page {
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+/* Logo */
+.logo {
+  color: #212121;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+}
+.web {
+  color: #2196f3;
+}
+/* Site Nav */
+.site-nav a {
+  color: #212121;
+  text-decoration: none;
+}
+/* Auth Nav */
+.auth-nav a {
+  text-decoration: none;
+}
+/* Footer */
+footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.logo-white {
+  color: #ffffff;
+  text-decoration: none;
+}
+address a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
