@@ -3,41 +3,81 @@
     цвет текста-2  #757575;
     белый #FFFFFF;
  */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --title-color: #ffffff;
+  --accent-color: #2196f3;
+  --background-section-color: #2f303a;
+}
 .page {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .list {
   list-style: none;
 }
 /* Logo */
 .logo {
-  color: #212121;
+  color: #000000;
   font-family: Raleway;
   font-weight: 700;
   font-size: 26px;
 }
 .web {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 /* Site Nav */
 .site-nav a {
-  color: #212121;
   text-decoration: none;
 }
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
 /* Auth Nav */
-.auth-nav a {
+.auth-nav .link {
   text-decoration: none;
+  color: var(--secondary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Hero */
+.hero-title {
+  color: var(--title-color);
+  background-color: var(--background-section-color);
+}
+.button {
+  color: var(--title-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+/* section */
+.section-title {
+  color: var(--primary-text-color);
+}
+.team .title,
+.advantages .title {
+  color: var(--primary-text-color);
 }
 /* Footer */
 footer {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--background-section-color);
+  color: var(--title-color);
 }
 .logo-white {
   color: #ffffff;
   text-decoration: none;
 }
-address a {
+address .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+address .link:hover,
+address .link:focus {
+  color: var(--accent-color);
 }
